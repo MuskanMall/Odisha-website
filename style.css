@@ -1,0 +1,95 @@
+/* utility classes and standard formating */
+body {
+    background-image: url("https://media.giphy.com/media/l1J9BYe5eZccC4Nck/giphy.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+h1, h2, h3, h4, p {
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+#making-yellow {
+    color : yellow;
+}
+h2 {
+    font-size: 30px;
+    margin-top : 0;
+}
+
+.circular-img {
+    height: 350px;
+    width : 350px;
+    border-radius: 50%;
+    border : 1px solid black
+
+}
+
+.info-text {
+    color : white;
+    text-shadow: 0 0 1px black;
+    font-weight: bold;
+}
+
+a {
+    color : #f7ede2;
+    
+}
+/* hero section */
+#hero-heading {
+    font-weight: 700;
+    font-size: 75px;
+}
+
+#hero {
+    padding-top: 50px;
+    color : white;
+    text-shadow: 0 0 5px black;
+    height: 250px;
+    background-image: url("images/konark-sun-temple.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center; 
+
+}
+#hero:hover {
+    background-image: url("images/odi.png");
+}
+
+/* middle */
+
+#info {
+    margin-top : 40px;
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+   
+}
+
+/* footer */
+#footer {
+    display : flex;
+    justify-content: space-around;
+}
+
+#footer-text {
+    /* background-image: radial-gradient(circle, #ffef9f, #ffdea4, #ffd0b2, #ffc7c2, #ffc2d1); */
+    color : white;
+    text-shadow: 0 0 2px black;
+    padding-top: 50px;
+    padding-left: 40px;
+}
+
+#fo-h4 {
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+#fo-p {
+    font-size: 20px;
+}
+
+#profile-img {
+    height: 300px;
+}
